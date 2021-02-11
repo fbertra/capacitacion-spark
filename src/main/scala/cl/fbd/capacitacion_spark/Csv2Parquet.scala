@@ -3,6 +3,8 @@ package cl.fbd.capacitacion_spark
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.SaveMode
 
+import cl.fbd.capacitacion_spark.dal.LeeCsv
+
 object Csv2ParquetMain {
   def main (args: Array [String]): Unit = {
       println ("Capacitacion Spark")

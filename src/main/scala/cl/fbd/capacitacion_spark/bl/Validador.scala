@@ -1,4 +1,4 @@
-package cl.fbd.capacitacion_spark.bl
+package cl.fbd.capacitacion_spark.bl // businees logic
 
 import cl.fbd.capacitacion_spark.domain.Vuelta
 

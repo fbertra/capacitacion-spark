@@ -1,6 +1,7 @@
-package cl.fbd.capacitacion_spark
+package cl.fbd.capacitacion_spark.dal // data access logic
 
 import org.apache.spark.sql.SparkSession
+
 import cl.fbd.capacitacion_spark.domain.{Evento, Vuelta}
 import cl.fbd.capacitacion_spark.bl.Validador
 
