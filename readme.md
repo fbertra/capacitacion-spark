@@ -1,18 +1,22 @@
-Ejecutar con spark-submit
+mini-app scala/Spark para una capacitacion a colegas
 
-Punto de entrada
+Ilustra los siguientes puntos:
 
-Sintaxis de Scala:
-- package
-- object,
-- implicits,
-- execption,
+- Como ejecutar con spark-submit,
 
-Como organizar un proyecto en capas: 
-- main, 
-- DAL (Data Access Logic),
-- BL (Business Logic)
+- Introduccion a la sintaxis de Scala minima para usar Spark:
+  - package, import
+  - object, class, case class,
+  - method,
+  - implicit,
+  - exception,
+  
+- Como organizar un proyecto en capas: 
+  - rutina main,
+  - DAL (Data Access Logic),
+  - BL (Business Logic)
+  - domain (entidades)
 
-Como testear la capa BL sin ejecutar Spark
+- Como testear la capa BL sin ejecutar Spark
 
-Como generar un jar con SBT (sin usar el IDE) y como ejecutar los tests (sin usar el IDE)
+- Como generar un jar con SBT (sin usar el IDE) y como ejecutar los tests (sin usar el IDE)
