@@ -17,7 +17,7 @@ object Csv2ParquetMain {
       val nombreCSV = args (0)
       val nombreParquet = args (1)
 
-      implicit val spark = SparkSession.builder.appName ("Lee y valida Vueltas en formato CSV y guarda en formato Parquet").getOrCreate()
+      implicit val spark = SparkSession.builder.master ("local[2]").appName ("Lee y valida Vueltas en formato CSV y guarda en formato Parquet").getOrCreate()
       
       println (s"Lee y valida archivos de vualtas CSV ${nombreCSV}")
       println (s"El proceso falla por completo si existe una vuelta con error")
